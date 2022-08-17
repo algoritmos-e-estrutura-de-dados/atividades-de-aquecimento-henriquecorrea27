@@ -8,4 +8,4 @@ codigo2 , nUnidade2, precoUn2 = produto2.split(' ')
 
 valor = int(nUnidade1) * float(precoUn1) + int(nUnidade2) * float(precoUn2)
 
-print(f"VALOR A PAGAR = {valor}")
+print(f"VALOR A PAGAR = R$ {valor: .2f}")
